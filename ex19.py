@@ -1,11 +1,12 @@
+# createa a function named chees_and_crackers with two arguments. 
 def cheese_and_crackers(cheese_count, boxes_of_crackers):
     print(f"You have {cheese_count} cheeses!")
     print(f"You have {boxes_of_crackers} boxes of crackers!")
     print("Man that's enough for a party!")
     print("Get a blanket. \n")
 
- 
-print("We can just give the funcion numbers directly:")
+# give the function values for the two arguments.
+print("We can just give the function numbers directly:")
 cheese_and_crackers(20,30)
 
 
