@@ -15,7 +15,5 @@ print(f"Does the output file exist? {exists(to_file)}")
 #print("Ready, hit RETURN to continue, CTRL-C to abort.")
 #input()
 
-out_file = open(to_file, 'w').write(indata)   # Does this properly close the file? 
-
-print("Aright, all done.")
+out_file = open(to_file, 'w').write(indata);print("Aright, all done.")   # Does this properly close the file? 
 
