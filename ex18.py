@@ -12,7 +12,6 @@ def print_two_again(arg1, arg2):
 def print_one(arg1):
     print(f"arg1: {arg1}")
 
-
 # this one takes no arguments 
 def print_none():
     print(" I got nothing'.")
