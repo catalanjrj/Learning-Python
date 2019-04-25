@@ -18,7 +18,7 @@ print("OR, we can use variable from our script:")
 amount_of_cheese = 10 
 amount_of_crackers = 50 
 
-# create a variable called cheese_and_crackers which is equal to amount_of_cheese and amount_of_crackres.
+# give cheese_and_crackers the value of amount_of_cheese and amount_of_crackers.
 cheese_and_crackers(amount_of_cheese, amount_of_crackers)
 
 # Do some math inside cheese_and_crackers. 
@@ -29,4 +29,13 @@ cheese_and_crackers(10 + 20, 5 + 6)
 print("And we can combine the two, variables and math:")
 cheese_and_crackers(amount_of_cheese + 100, amount_of_crackers + 1000)
 
+
+def sandwiches(with_cheese, without_cheese):
+   # print("We also have sandwiches")
+    print(f"We have {with_cheese} sandwiches with cheese")
+    print(f"We have {without_cheese} sandwiches without cheese")
+
+print("How many sandwiches do we have?");sandwiches(30,40)
+
+print("How many sandwiches do we have?");sandwiches(input("With cheese?"), input("No cheese?"))
 
