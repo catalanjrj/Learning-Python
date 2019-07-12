@@ -1,0 +1,4 @@
+ some text in test
+Let's add more lines to this file
+more text
+
